@@ -27,7 +27,7 @@ import { Assignment, Delete, Edit } from "@mui/icons-material";
 import { useRouter } from "next/router";
 import Navbar from "./components/Navbar";
 import { addTodo, assignTodoToUser, deleteTodo, fetchTodos, updateTodo } from "@/utils/redux-arch/todoreducer/action";
-import UserEmailModal from "./components/userEmailModal";
+import UserEmailModal from "./components/UserEmailModal";
 
 const Home = () => {
   const [open, setOpen] = useState(false); // State to control the visibility of the email modal
